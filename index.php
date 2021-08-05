@@ -4,4 +4,4 @@
 
 <script>
      window.location = "index.html";
-<script>
+</script>
