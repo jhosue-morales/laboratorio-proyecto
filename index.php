@@ -3,5 +3,5 @@
 ?>
 
 <script>
-     window.location = "index.html";
+     window.location = "/laboratorio-proyecto/index.html";
 <script>
