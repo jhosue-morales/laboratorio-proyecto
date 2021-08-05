@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
 }
@@ -104,7 +103,7 @@
 /**************************texto 1********************************************/
 
 .texto1{
-    background-image: url('/laboratorio-proyecto/imglogos/banners/img1.png');
+    background-image: url('../imglogos/banners/img2.png');
     position: initial;
     width: 1343px;
     height: 350px;
@@ -119,8 +118,10 @@
     font-size: 23px;    
     text-shadow: 2px 3px 2px #000;
 }   
+
 .texto1 .tex1 p{
     margin-top: 2px;
+    margin-left: 57px;
 }
 
 
@@ -170,6 +171,12 @@
     color: #333;
     background-color: #fff;
     margin-top: 5%;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    margin-top: 50px;
 }
 /************************************************************************************/
 
