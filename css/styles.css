@@ -1,0 +1,512 @@
+
+
+body {
+    margin: 0;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+ul {
+    margin: 5px 0;
+}
+
+
+
+.icon-home {
+    background-image: url(/images/home.png);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    padding-top: 10px;
+}
+ video{
+   width: 900px;
+   height: 500px;  
+ }
+
+
+
+
+/*********************** Estilos para Footer ***************************************/
+
+footer {
+    position: relative;
+    top: 20; 
+    width: 100%;
+    height: 180px; 
+    margin: 0;
+}
+
+footer .footer-content {
+    margin-left: 10%;
+    display: flex;
+}
+footer .footer-content ul li > a {
+    font-size: 12px;
+    color: #ffe93c;
+    text-decoration: none;  
+}
+
+footer .footer-content ul li:hover > a {
+    color: rgb(255, 255, 255);
+}
+
+footer .footer-content .img01 {
+    width: 160px;
+    margin-top: 5%;
+}
+
+footer .footer-content  .img02 {
+    width: 90px;
+}
+
+footer .footer-content .img01 .img02 {
+    margin-left: 100px;
+}
+
+footer .footer-content img {
+    margin: 15px;
+}
+
+footer .footer-content  ul  {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+footer .footer-content  ul li {
+    margin: 20px;
+    text-align: center;
+
+}
+
+
+
+
+/**********************************************************************************/
+
+
+
+iframe {
+    margin-right: 30px;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+.parrafo-1{
+    color: #fefeff;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-right: 10px;
+    
+}
+
+.titulo-1{
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+   
+    text-transform: uppercase;
+    color: #ffe93c;
+    line-height: 1.3;
+}
+
+.images-1{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: inherit;
+    color: #fde400;
+}
+
+
+aside{
+    width: 25%;
+    height: 300px;
+    float: right;
+    margin-right: 130px;
+    margin-right: 80px;
+    
+}
+
+section{
+    width: 25%;
+    height: 300px;
+    float: right;
+    margin-right: 130px;
+    margin-right: 80px;
+}
+span{
+    color: rgb(243, 243, 243);
+}
+
+header{
+    width: 90%;
+    height: 80px;
+}
+
+/***************** titulos y texto ****************/
+
+.texanimado {
+    color: #ffffff;
+    text-align: center;
+    font-size: 130;
+    font-family:unset;
+    
+}
+
+
+
+
+.ti-2{
+    color: #fde400;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 15;
+    
+}
+
+.ti-3{
+    color: #fde400;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 15;
+}
+/***************************************************/
+
+
+
+
+
+/***********************menu*******************************/
+
+
+.navegacion nav a img{
+    width: 58px;
+    height: 58px;
+    float: right;
+    margin-right: 20px;
+    margin-right: 0px;
+}
+
+.navegacion nav ul .logo a img {
+    width: 120px;
+    height: 65px;
+    float: left;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.navegacion{
+	width: 100%;
+    
+}
+.orden{
+    float: left;
+    margin: 10px;
+}
+
+.navegacion nav{
+	width: 100%;
+	max-width: 100%;
+	background: #fde458;
+    font-size: 18;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.navegacion nav ul{
+	list-style: none;
+	position: relative;
+}
+
+.navegacion nav > ul > li{
+	display: inline-block;
+    margin-left: 1%;
+}
+
+.navegacion nav > ul > li > a{
+	color: rgb(80, 80, 80);
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+.navegacion nav > ul > li > a span{
+	font-size: 20px;
+	position: absolute;
+	bottom: -8px;
+	display: none;
+}
+
+.navegacion nav > ul > li:hover span{
+	display: block;
+}
+
+.navegacion nav ul li .submenu{
+	background: #2D3447;
+	padding: 20px;
+	position: absolute;
+	display: none;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+
+.navegacion nav ul li:hover .submenu{
+	display: flex;
+}
+
+.navegacion nav ul li .submenu .submenu-items{
+	margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p{
+	font-weight: 600;
+	width: 110px;
+	display: block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #565656;
+	margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+	color: #474747;
+	text-decoration: none;
+	margin: 6px 0;
+	display: block;
+}
+
+/*****************************************************************************/
+
+
+
+
+
+/*********************carrusel de imagen**************************************/
+
+.container{
+    margin: auto;
+    
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+    
+    
+  }
+  .efect{
+      animation: move 4s ;
+  }
+  @keyframes move {
+    0% {
+        opacity: 0;
+        margin-left: 20px;
+    }
+    50%{
+        opacity: 0.5;
+        margin-left: 10px;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 0px;
+        
+    }      
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:rgb(146, 96, 96);
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: rgb(14, 5, 5);
+    text-decoration: none;
+    background-color: rgb(194, 192, 192);
+    padding: 10px;
+    width: 1px;
+    height: 1px;
+    font-size: 20px;
+    border-radius: 100px;
+  }
+
+/*****************************************************************************/
+
+
+
+
+
+/************************personajes filas*************************************/
+
+.filas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.filas .cajas{
+    width: 600px;
+    height: 600PX;
+    display: inline-block;
+    transition: all 500ms ease;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+    overflow: hidden;       
+} 
+
+.filas .cajas img{
+    width: 250px;
+    height: 500px;
+    margin-left: 7px;
+    transition: all 500ms ease;
+}
+
+
+.filas .cajas img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.filas .cajas h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    color: #fde400;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+
+/******************************************************************************/
+
+
+
+/*****************************novedates y titulos******************************/
+
+.NYT{
+    border: rgb(255, 196, 0) double 1px;
+    display: flex;
+    margin-top: 170px;
+    margin-left: 1px;
+}
+
+
+.NYT .novedades{
+    margin-left: 40px;
+}
+
+.NYT .novedades h1{
+    color: rgb(230, 215, 13);
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.NYT .novedades ul li{
+    font-size: 15px;
+    font-family:"Roboto", sans-serif;
+}
+    
+
+.NYT img{
+    width: 500px;
+    height: 300px;
+    margin-left: 350px;
+    
+}
+
+
+/******************************************************************************/
+
+
+/*******************************banner*****************************************/
+
+
+.banner {
+    background-image: url('https://www.playerreset.com/wp-content/uploads/2020/04/call-of-duty-mobile-banner-1.jpg');
+    position: initial;
+    width: 101%;
+    height: 400px;
+    margin-top: 8%;
+}
+
+.banner ul {
+    display: flex;
+    margin-left: 69%;
+}
+
+.banner ul li {
+    margin: 15px;
+    margin-top: 70%;
+}
+
+.banner ul li .app {
+    width: 160px;
+    height: 48px;
+}
+
+.banner ul li .play {
+    width: 160px;
+}

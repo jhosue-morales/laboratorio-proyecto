@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/***********************menu*******************************/
+
+
+.navegacion nav a img{
+    width: 58px;
+    height: 58px;
+    float: right;
+    margin-right: 20px;
+    margin-right: 0px;
+}
+
+.navegacion nav ul .logo a img {
+    width: 120px;
+    height: 65px;
+    float: left;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.navegacion nav ul a {
+	font-size: 110%;
+}
+
+.navegacion{
+	width: 100%;
+
+    
+}
+
+.navegacion nav{
+	width: 100%;
+	max-width: 100%;
+	background: #fde458;
+    font-size: 18;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.navegacion nav ul{
+	list-style: none;
+	position: relative;
+}
+
+.navegacion nav > ul > li{
+	display: inline-block;
+    margin-left: 1%;
+}
+
+.navegacion nav > ul > li > a{
+	color: rgb(80, 80, 80);
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+.navegacion nav > ul > li > a span{
+	font-size: 20px;
+	position: absolute;
+	bottom: -8px;
+	display: none;
+}
+
+.navegacion nav > ul > li:hover span{
+	display: block;
+}
+
+.navegacion nav ul li .submenu{
+	background: #2D3447;
+	padding: 20px;
+	position: absolute;
+	display: none;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+
+.navegacion nav ul li:hover .submenu{
+	display: flex;
+}
+
+.navegacion nav ul li .submenu .submenu-items{
+	margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p{
+	font-weight: 600;
+	width: 110px;
+	display: block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #565656;
+	margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+	color: #474747;
+	text-decoration: none;
+	margin: 6px 0;
+	display: block;
+}
+
+/*****************************************************************************/
+
+/***********************caja de compra****************************************/
+.pre {
+	border: 1px solid #e0d67d;
+	padding: 10px;
+	margin: 10px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+
+	max-width: 500px;
+	height: auto;
+	background-color: none;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	}
+	
+.pregunta1 {
+	color: rgb(201, 179, 59);
+	text-align: center;
+	font-size: 40px;
+}
+
+.pregunta1 span {
+	color: rgb(231, 232, 233);
+}
+
+.pregunta2{
+	color: #cc1d1d;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+	
+.respuestas {
+	color: #c7c6c6;
+}
+
+.pre a > .sub_compra {
+	border: none;
+	background-color: rgb(212, 173, 88);
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-top: 5%;
+
+}
+
+
+.pre a {
+	margin-left: 35%;
+}
+
+.pre .respuestas input {
+	text-align: center;
+	margin: 5%;
+}
+
+
+
+/*************************************************************************/
+
+
+/*********************** Estilos para Footer ***************************************/
+
+footer {
+    position: relative;
+    top: 20; 
+    width: 100%;
+    height: 180px; 
+    margin: 0;
+}
+
+footer .footer-content {
+    margin-left: 10%;
+    display: flex;
+}
+footer .footer-content ul li > a {
+    font-size: 12px;
+    color: #ffe93c;
+    text-decoration: none;  
+}
+
+footer .footer-content ul li:hover > a {
+    color: rgb(255, 255, 255);
+}
+
+footer .footer-content .img01 {
+    width: 160px;
+    margin-top: 5%;
+}
+
+footer .footer-content  .img02 {
+    width: 90px;
+}
+
+footer .footer-content .img01 .img02 {
+    margin-left: 100px;
+}
+
+footer .footer-content img {
+    margin: 15px;
+}
+
+footer .footer-content  ul  {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+footer .footer-content  ul li {
+    margin: 20px;
+    text-align: center;
+
+}
+
+
+
+
+/**********************************************************************************/
