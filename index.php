@@ -3,10 +3,5 @@
 ?>
 
 <script>
-     window.location = "/laboratorio-proyecto/pages/novedades.html";
+     window.location = "index.html";
 <script>
-<html>
-<body>
-    <a href="index.html"></a>
-</body>
-</html>
